@@ -1,0 +1,785 @@
+@media(max-width: 1800px) {
+    .container {
+        max-width: 1740px ;
+    }
+    .about-block-parent {
+        max-width: 52%;
+    }
+    .more-detalis-parent {
+        max-width: 48%;
+    }
+
+    .about-block-child {
+        padding-left: 30px ;
+        padding-right: 30px ;
+    }
+    .about-block-img1,.about-block-img2 {
+        padding-right: 20px;
+    }
+    .specification-img-img {
+        max-width: 800px;
+    }
+    .footer-left {
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 1600px) {
+    .container {
+        max-width: 1450px ;
+    }
+    .about-blocks {
+        flex-direction: column;
+    }
+    .about-block-parent {
+        max-width: 100% ;
+    }
+    .more-detalis-parent {
+        max-width: 100% ;
+        background-size: cover;
+        height: 640px ;
+        margin-top: 60px ;
+        
+    }
+    .more-detalis-child {
+        max-width: 100%;
+    }
+    .detalis-button {
+        margin-left: auto ;
+        margin-right: 45px;
+    }
+    .detalis-text {
+        line-height: 30px ;
+        margin-top: 43px ;
+        margin-left: 45px ;
+    }
+    .about-block-child {
+        padding-right: 92px ;
+        padding-left: 112px ;
+        margin-left: 0px ;
+    }
+    .about-block-img1,.about-block-img2 {
+        padding-right: 0px ;
+    }
+    .about-block-img1 {
+        padding-top: 14px;
+        max-width: 260px;
+    }
+    .about-block-img2 {
+        padding-top: 21px;
+    }
+    .about-block-child:first-child {
+        margin-top: 48px ;
+    }
+    .about-block-child:last-child {
+        margin-top: 39px ;
+    }
+    .specification-img {
+        margin-left: 0;
+    }
+    .specification-img-img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 54px;
+        padding-left: 10px;
+    }
+    .what-we-do-heading {
+        margin-top: 50px;
+    }
+    .footer-center {
+        margin-left: auto ;
+    }
+    .footer-left {
+        display: none;
+    }
+}
+
+@media(max-width: 1111px) {
+    .container {
+        max-width: 924px ;
+    }
+    .heading {
+        margin-top: 62px ;
+    }
+    .container-intro {
+        background-image: url(/img/intro-tablet.jpg) ;
+        background-size: cover;
+        height: 668px ;
+    }
+    .nav-child:not(:last-child) {
+        display: none ;
+    }
+    .nav-search {
+        margin-right: 0 ;
+    }
+    .nav-menu {
+        display: none ;
+    }
+    .nav-parent {
+        display: none ;
+    }
+    .burger {
+        display: block ;
+    }
+    .logo {
+        margin: 0 auto;
+        justify-content: center;
+        padding-top: 5px ;
+    }
+    .logo-img {
+        width: 150px;
+        display: inline-block;
+    }
+    .intro-text {
+        margin-top: 8px ;
+        margin-left: 45px ;
+        max-width: 658px ;
+        font-size: 20px ;
+        letter-spacing: 0px ;
+        line-height: 26px ;
+    }
+    .intro-heading {
+        margin-top: 160px ;
+        max-width: 837px ;
+        margin-left: 45px ;
+        font-size: 60px ;
+        line-height: 73px ;
+    }
+    .intro-button {
+        margin-top: 109px ;
+        max-width: 285px ;
+        margin-left: 47px ;
+        padding: 25.5px 38px ;
+    }
+    .about-heading {
+        margin-left: 0px ;
+        margin-top: 60px ;
+    }
+    .about-text {
+        /* width: 925px ; */
+        margin-top: 25px ;
+    }
+    .about-block-text {
+        max-width: 452px;
+    }
+    .about-block-child-text {
+        margin-top: 67px;
+        padding-left: 59px;
+    }
+    .about-blocks {
+        flex-direction: column;
+    }
+    .about-block-parent {
+        max-width: 100% ;
+    }
+    .more-detalis-parent {
+        width: 100% ;
+        background-size: cover;
+        height: 640px ;
+
+        margin-top: 60px ;
+        
+    }
+    .detalis-button {
+        margin-left: 156px ;
+    }
+    .detalis-text {
+        line-height: 30px ;
+        margin-top: 43px ;
+        margin-left: 45px ;
+    }
+    .about-block-child {
+        padding-right: 92px ;
+        padding-left: 112px ;
+        margin-left: 0px ;
+    }
+    .about-block-img1,.about-block-img2 {
+        padding-right: 0px ;
+    }
+    .about-block-img1 {
+        padding-top: 14px;
+        max-width: 178px;
+    }
+    .about-block-img2 {
+        padding-top: 21px;
+        max-width: 178px;
+    }
+    .about-block-child:first-child {
+        margin-top: 48px ;
+    }
+    .about-block-child:last-child {
+        margin-top: 39px ;
+    }
+    .specification-img-img {
+        max-width: 437px;
+        height: 688px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    .what-we-do-heading{
+        margin-top: 0px;
+    }
+    .specification-img {
+        margin-left: auto;
+        margin-top: 11px;
+    }
+    .specification-text {
+        max-width: 437px;
+    }
+    .what-we-do-button {
+        margin-top: 27px ;
+    }
+    .contract-button {
+        margin-top: 28px ;
+        margin-left: 28px ;
+    }
+    .question {
+        max-width: 750px ;
+    }
+    .FAQ-heading{
+        margin-top: 55px;
+    }
+    .FAQ-parent {
+        margin-top: 37px;
+    }
+    .FAQ-question {
+        font-size: 20px;
+        line-height: 31px;
+
+    }
+    .FAQ-child {
+        padding-top: 25px ;
+        padding-bottom: 29px ;
+    }
+    .FAQ-child:first-child {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    .FAQ2 {
+        padding-bottom: 31px;
+        padding-top: 31px;
+    }
+    .FAQ3 {
+        padding-bottom: 27px;
+        padding-top: 27px;
+    }
+    .FAQ4 {
+        padding-top: 30px;
+        padding-bottom: 32px;
+    }
+    .answer-button {
+        padding: 26px ;
+        margin-top: 4px;
+    }
+    .footer {
+        margin-top: 53px;
+    }
+    .footer-right .footer-links {
+        margin-top: 9px ;
+    }
+    .footer-center {
+        margin-left: 66px;
+    } 
+    .footer-header {
+        margin-top: 58px ;
+    }
+    .footer-input {
+        max-width: 535px ;
+    }
+    .footer-textarea {
+        max-width: 535px ;
+    }
+    .form-button {
+        padding: 20px 38.5px ;
+    }
+    .checkbox {
+        margin-left: 17px ;
+    }
+}
+
+
+
+@media(max-width: 900px) {
+    .container {
+        max-width: 668px;
+    }
+    .nav {
+        height: 69px;
+    }
+    .nav-search {
+        margin-top: 3px;
+    }
+    .container-intro {
+        max-width: 100% ;
+        background-image: none;
+    }
+    .intro {
+        background-image: url(/img/intro-tablet.jpg);
+        background-size: cover;
+        max-width: 100%;
+        height: 699px;
+    }
+    .intro-heading {
+        margin-top: 191px;
+        margin-left: 30px;
+    }
+    .intro-text {
+        margin-top: 8px;
+        margin-left: 29px;
+    }
+    .intro-button {
+        margin-top: 108px;
+        max-width: 287px;
+        margin-left: 30px;
+    }
+    .more-detalis-parent {
+        background-position: center;
+        height: 649px;
+    }
+    .more-detalis-child {
+        height: 173px;
+    }
+    .detalis-text {
+        width: 400px ;
+        margin-top: 23px;
+        line-height: 31px;
+        margin-left: 29px;
+    }
+    .detalis-button {
+        margin-left: 34px ;
+        margin-bottom: 56px;
+        margin-top: 57px;
+        margin-right: 0px;
+    }
+    .about-block-img1 {
+        width: 118px;
+        padding-bottom: 70px;
+        padding-top: 72px;
+    }
+    .about-block-img2 {
+        padding-top: 35px;
+        max-width: 115px;
+    }
+    .about-block-child {
+        padding-right: 0px ;
+        padding-left: 30px ;
+        margin-left: 0px ;
+        height: 235px;
+    }
+    .about-block-child:first-child {
+        margin-top: 40px;
+    }
+    .about-block-child-text {
+        margin-top: 37px;
+        padding-left: 32px;
+    }
+    .about-block-child-text1 {
+        margin-top: 36px;
+        padding-left: 29px;
+    }
+    .specification {
+        flex-direction: column-reverse;
+    }
+    .specification-img {
+        width: 100%;
+        margin: 0px;
+    }
+    .specification-img-img {
+        max-width: 100%;
+        width: 100% ;
+        height: 282px ;
+    }
+    .what-we-do-heading {
+        margin-top: 39px;
+    }
+    .specification-text {
+        max-width: 100%;
+    }
+    .what-we-do-text {
+        max-width: 100%;
+    }
+    .step:nth-child(2) {
+        margin-left: 154px ;
+    }
+    .step:nth-child(n+3) {
+        margin-left: 154px ;
+    }
+    .what-we-do-button {
+        margin-top: 28px;
+    }
+    .contract-button {
+        margin-top: 31px;
+    }
+    .FAQ-heading {
+        width: 105%;
+        margin-top: 59px;
+    }
+    .FAQ-child {
+        padding-top: 25px;
+        padding-bottom: 37px;
+    }
+    .FAQ3 {
+        padding-bottom: 36px;
+        padding-top: 27px;
+    }
+    .footer {
+        margin-top: 58px;
+    }
+    .footer-header {
+        margin-top: 59px;
+    }
+    .footer-input {
+        margin-left: 0px;
+    }
+    .footer-textarea {
+        margin-left: 0px;
+    }
+    .footer-form-button {
+        margin-left: 0px;
+    }
+    .footer-container {
+        flex-direction: column-reverse
+    }
+    .footer-right {
+        margin-top: 58px;
+    }
+    .footer-center {
+        margin-left: 0 ;
+    }
+    .footer-links {
+        display: none ;
+    }
+    .social {
+        margin-top: 10px ;
+    }
+
+}
+
+@media(max-width: 751px) {
+    .container {
+        max-width: 650px;
+    }
+    .container-intro {
+        background-image: none;
+    }
+    .intro-heading {
+        line-height: 70px;
+        margin-top: 70px;
+        font-size: 4em;
+    }
+    .intro-text {
+        margin-left: 41px;
+        line-height: 32px;
+        font-size: 1.3em;
+        max-width: 90%;
+    }
+    .intro-button {
+        margin-top: 30px;
+    }
+    .about-text {
+        font-size: 18px;
+    }
+    .about-block-child-text {
+        margin-top: 3px;
+    }
+    .detalis-button {
+        padding: 22px 30px;
+        margin-top: 48px;
+    }
+    .step:nth-child(2) {
+        margin-left: 80px;
+    }
+    .step:nth-child(n+3) {
+        margin-left: 80px;
+    }
+    .what-we-do-text {
+        font-size: 18px;
+    }
+    .what-we-do-button {
+        padding: 30px 38px;
+    }
+    .contract-button {
+        height: 78px;
+    }
+    .footer-center {
+        min-width: 90%;
+    }
+}
+
+@media(max-width: 584px) {
+    .container {
+        max-width: 290px;
+    }
+    .nav {
+        flex-direction: row-reverse;
+        height: 45px;
+    }
+    .nav-search {
+        display: none;
+    }
+    .burger {
+        margin-top: 4px;
+    }
+    .burger-img {
+        width: 25px;
+    }
+    .logo {
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .logo-img {
+        width: 97px;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .heading {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .intro {
+        background-image: none;
+        height: 261px;
+    }
+    .container-intro {
+        background-image: url(/img/intro-phone.jpg);
+        width: 95%;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        height: 262px;
+    }
+    .intro-heading {
+        line-height: 24px;
+        margin-top: 11%;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .intro-text {
+        font-size: 12px;
+        max-width: 100%;
+        margin-left: 0;
+        line-height: 15px;
+        font-weight: 500;
+        padding-left: 26px;
+        padding-right: 25px;
+    }
+    .intro-button {
+        margin-left: 0px;
+        max-width: 162px;
+        font-size: 12px;
+        text-align: center;
+        padding: 13px 28px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .about-text {
+        margin-top: 2px;
+        line-height: 28px;
+    }
+    .detalis-text {
+        margin-top: 3%;
+        font-size: 14px;
+        line-height: 28px;
+        margin-left: 0px;
+        color: var(--gray-text);
+        font-weight: 400;
+        width: 100%;
+    }
+    .detalis-button {
+        margin-top: 62px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+        margin-left: 1px;
+        font-size: 12px;
+        padding: 9px 14px;
+        color: var(--orange);
+        text-align: center;
+        max-width: 160px;
+    }
+    .more-detalis-parent {
+        height: 411px;
+        background-image: none;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .more-detalis-child {
+        height: 100%;
+        background: none;
+
+        flex-direction: column;
+    }
+    .about-block-img0 {
+        display: inline-block;
+        height: 201px;
+        margin-top: 10px;
+    }
+    .about-block-img2 {
+        max-width: 63px;
+        height: 55;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .about-block-img1 {
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 64px;
+        height: 49px;
+    }
+    .about-block-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .about-block-child-text {
+        margin-top: 10px;
+        margin-bottom: auto;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .about-block-header {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-bottom: 1px;
+    }
+    .about-block-child {
+        height: 233px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        border: none;
+    }
+    .what-we-do-header {
+        margin-top: 96px;
+    }
+
+    .what-we-do-heading {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 15px;
+        line-height: 28px;
+        padding-bottom: 0px;
+    }
+    .specification-img-img {
+        max-height: 159px;
+    }
+    .step {
+        margin-top: 27px;
+        margin-bottom: 10px;
+    }
+    .step:nth-child(2) {
+        margin-left: 15%;
+    }
+    .step:nth-child(n+3) {
+        margin-left: 15%;
+    }
+    .footer-form-button {
+        flex-direction: column;
+    }
+    .what-we-do-button {
+        padding: 10px 44px;
+        font-size: 12px;
+        margin-top: 21px;
+        text-align: center;
+    }
+    .contract-button {
+        height: 39px;
+        font-size: 12px;
+        margin-left: 9px;
+        margin-top: 21px;
+    }
+    .FAQ-parent {
+        margin-top: 13px;
+    }
+    .FAQ-question {
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 500;
+    }
+    .question {
+        max-width: 226px;
+    }
+    .answer-button {
+        background-image: url(/img/mobile-stroke.svg);
+        padding: 16px;
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+    .FAQ-child:first-child {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+    .FAQ2 {
+        padding-top: 29px;
+        padding-bottom: 28px;
+    }
+    .FAQ3 {
+        padding-bottom: 28px;
+        padding-top: 29px;
+    }
+    .FAQ4 {
+        padding-top: 30px;
+        padding-bottom: 27px;
+    }
+    .FAQ5 {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+    .question-more-width {
+        max-width: 300px;
+    }
+    .footer {
+        margin-top: 39px;
+    }
+    .footer-logo-img {
+        width: 129px;
+    }
+    .footer-header {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .footer-form {
+        width: 100%;
+    }
+    .footer-center-form {
+        margin-top: 20px;
+    }
+    .footer-input {
+        padding-left: 19px;
+        font-size: 16px;
+    }
+    .form-button {
+        padding: 13px 28.5px;
+        font-size: 12px;
+    }
+    .footer-form-button {
+        margin-top: 25px;
+    }
+    .checkbox-block {
+        display: flex;
+        align-items: center;
+        margin-top: 23px;
+    }
+    .footer-right {
+        margin-top: 31px;
+        padding-top: 24px;
+        min-width: 100%;
+        align-items: center;
+        border-top: 1px solid var(--bg-form-gray);
+    }
+    .checkbox-block {
+        margin-top: 17px;
+    }
+    .checkbox {
+        margin-left: 0px;
+    }
+    .social-img {
+        width: 36px;
+    }
+    .social-img:nth-child(n+2) {
+        margin-left: 9px;
+    }
+}
